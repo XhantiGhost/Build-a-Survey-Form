@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Survey Form</title>
 </head>
 <body>
@@ -75,7 +76,9 @@
 
   <p>Any comments or suggestions?</p>
 
-<input type="text" name="comment" size="50"><br><br>
+  <div class="col-75">
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
 
         <input type="submit" value="Submit" id="submit">
       </form> 
